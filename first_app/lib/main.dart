@@ -12,6 +12,7 @@ class Dices extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
+          backgroundColor: const Color.fromARGB(255, 6, 0, 62),
           title: const Text("Dices App Bar"),
         ),
         body: Container(
